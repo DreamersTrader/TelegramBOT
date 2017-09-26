@@ -25,7 +25,7 @@ TG_ID = ""
 TG_BOT_TOKEN = ""
 
 # If you don't want the 'BUY'/'SELL' images in your Telegram, set this to False
-want_pictures = False
+want_pictures = True
 
 # How frequently to poll for new trades
 pollingInterval = 5
@@ -34,7 +34,7 @@ pollingInterval = 5
 latestTrades = 10
 
 # Which coin balances to display; supports all coins
-coinBalancesToShow = ['BTC', 'USDT', 'ETH']
+coinBalancesToShow = ['BTC']
 
 # How often, additionally, in pollingIntervals, to show balances?
 # Balances will always be shown after BUY/SELL regardless of this setting.
