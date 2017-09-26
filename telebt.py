@@ -223,9 +223,9 @@ while (True):
             printed[key] = True
             time.sleep(0.33)
 #            if pollResult[key][2] == "BUY":
-#                bot.send_photo(chat_id=TG_ID, photo='https://raw.githubusercontent.com/dyvosvit/telegb/master/buy.png')
+#                bot.send_photo(chat_id=TG_ID, photo='https://raw.githubusercontent.com/DreamersTrader/Imagenes-BUY-SELL/master/buy.png')
 #            else:
-#                bot.send_photo(chat_id=TG_ID, photo='https://raw.githubusercontent.com/dyvosvit/telegb/master/sell.png')
+#                bot.send_photo(chat_id=TG_ID, photo='https://raw.githubusercontent.com/DreamersTrader/Imagenes-BUY-SELL/master/sell.png')
             pollResult[key][2] = '<b>' + pollResult[key][2] + '</b>'
             pollResult[key][5] = '<b>' + pollResult[key][5] + '</b>'
             pollResult[key][9] = '<b>' + pollResult[key][9] + '</b>'
